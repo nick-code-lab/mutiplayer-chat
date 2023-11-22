@@ -1,0 +1,14 @@
+{
+  "name": "mutiplayer-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd ui && npm run build",
+    "install": "cd server && npm install & cd ui && npm install",
+    "start": "cd server && node chat.js & cd ui && npm run dev"
+  },
+  "author": "qiqi",
+  "license": "ISC"
+}
